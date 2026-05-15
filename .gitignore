@@ -2,3 +2,8 @@ target/
 .idea/
 *.class
 
+.settings/
+.mvn/
+.classpath
+.factorypath
+.project
