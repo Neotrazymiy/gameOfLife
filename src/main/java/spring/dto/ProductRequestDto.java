@@ -15,6 +15,7 @@ public class ProductRequestDto {
 	private String name;
 	private Integer price;
 	private Firm firm;
+	private String imageUrl;
 	private boolean available;
 	private LocalDateTime localDateTime;
 

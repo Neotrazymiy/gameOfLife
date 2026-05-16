@@ -35,6 +35,9 @@ public class Product {
 	@Enumerated(EnumType.STRING)
 	private Firm firm;
 
+	@Column(name = "image_url", nullable = false)
+	private String imageUrl;
+
 	@Column(nullable = false)
 	private boolean available = false;
 

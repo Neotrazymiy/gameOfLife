@@ -1,0 +1,41 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8070:8080"
+    depends_on:
+      - db
+      - flaresolverr # Приложение запустится только ПОСЛЕ старта FlareSolverr
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/game_of_life
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=1234
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=validate
+      # Важнейшая строка: указываем Java-коду имя сервиса 'flaresolverr' вместо localhost
+      - FLARESOLVERR_URL=http://flaresolverr:8191/v1
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    ports:
+      - "8191:8191"
+    environment:
+      - LOG_LEVEL=info
+      - CAPTCHA_SOLVER=none
+    restart: always
+
+  db:
+    image: postgres:17
+    restart: always
+    environment:
+      - POSTGRES_DB=game_of_life
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
