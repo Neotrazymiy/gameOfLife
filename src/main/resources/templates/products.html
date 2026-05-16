@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Products</title>
+<link rel="stylesheet"
+	th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+	<div id="sidebar">
+		<button id="close-btn">X</button>
+		<h2>Товары</h2>
+		<div id="product-list"></div>
+	</div>
+
+	<div id="map"></div>
+
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+	<script src="/js/map.js"></script>
+
+</body>
+</html>
