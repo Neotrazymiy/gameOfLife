@@ -1,10 +1,10 @@
 package spring.model;
 
-import java.util.Map;
+import java.util.List;
+
+import spring.component.ATB_ProductHtml.Item;
 
 public interface ProductHtml {
 
-	Map<ProductsName, String> getUrlHtml();
-
-	Firm getFirm();
+	List<Item> getItems();
 }

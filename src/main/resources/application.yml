@@ -1,5 +1,161 @@
+<<<<<<< HEAD
 proxy:
   host: 
   port: 
   username: 
   password: 
+=======
+products:
+  items:
+    - firm: ATB
+      name: COCA_COLA
+      url: https://www.atbmarket.com/product/napij-250-ml-coca-cola-bezalkogolnij-silnogazovanij
+
+    - firm: ATB
+      name: OLIVA_OIL_COLD_PRESSED
+      url: https://www.atbmarket.com/product/olia-250-ml-de-luxe-foodsgoods-selected-olivkova-extra-virgin
+
+    - firm: ATB
+      name: PUMPKIN_OIL_COLD_PRESSED
+      url: https://www.atbmarket.com/product/olia-230g-de-luxe-foodsgoods-selected-garbuzova-persij-holodnij-vidzimu
+
+    - firm: ATB
+      name: TANGERINES
+      url: https://www.atbmarket.com/product/mandarini-1gat
+
+    - firm: ATB
+      name: GRAPEFRUIT
+      url: https://www.atbmarket.com/product/grejpfrut-1gat
+
+    - firm: ATB
+      name: ORANGE
+      url: https://www.atbmarket.com/product/apelsin-vag-1-gat
+
+    - firm: ATB
+      name: PINEAPPLE
+      url: https://www.atbmarket.com/product/ananas-vag-1-gat
+
+    - firm: ATB
+      name: APPLE
+      url: https://www.atbmarket.com/product/abluko-ukrainske
+
+    - firm: ATB
+      name: BANANA
+      url: https://www.atbmarket.com/product/banan-1-gat
+
+    - firm: ATB
+      name: PEAR
+      url: https://www.atbmarket.com/product/grusa-1-gat
+
+    - firm: ATB
+      name: LEMON
+      url: https://www.atbmarket.com/product/limon-1-gat
+
+    - firm: ATB
+      name: WHITE_GRAPES
+      url: https://www.atbmarket.com/product/vinograd-bilij-500-g-fas-1-gat
+
+    - firm: ATB
+      name: AVOCADO_CHAOS
+      url: https://www.atbmarket.com/product/avokado-haas-vagove-1-gat
+
+    - firm: ATB 
+      name: MANGO
+      url: https://www.atbmarket.com/product/mango-vag-1-gat
+
+    - firm: ATB
+      name: PINK_GRAPES
+      url: https://www.atbmarket.com/product/vinograd-rozevij-1-gat
+
+    - firm: ATB
+      name: KIWI
+      url: https://www.atbmarket.com/product/kivi-vagove-1gat
+
+    - firm: ATB
+      name: TOMATO
+      url: https://www.atbmarket.com/product/tomati-teplicni-1-gatunok
+
+    - firm: ATB
+      name: ZUCCHINI
+      url: https://www.atbmarket.com/product/kabacki-1-gat
+
+    - firm: ATB
+      name: LAST_YEARS_CABBAGE
+      url: https://www.atbmarket.com/product/kapusta-1-gat
+
+    - firm: ATB
+      name: BEET
+      url: https://www.atbmarket.com/product/burak-1-gat
+
+    - firm: ATB
+      name: CARROT
+      url: https://www.atbmarket.com/product/morkva-1gat
+
+    - firm: ATB
+      name: CIBULA
+      url: https://www.atbmarket.com/product/cibula-ripcasta-1-gat
+
+    - firm: ATB
+      name: LAST_YEARS_POTATOES
+      url: https://www.atbmarket.com/product/kartopla-1-gat
+
+    - firm: ATB
+      name: CUCUMBERS
+      url: https://www.atbmarket.com/product/ogirki-teplicni-1gat
+
+    - firm: ATB
+      name: EARLY_POTATOES
+      url: https://www.atbmarket.com/product/kartopla-ranna-egipet-1gat
+
+    - firm: ATB
+      name: LAST_YEARS_GARLIC
+      url: https://www.atbmarket.com/product/casnik-import-1-gat
+
+    - firm: ATB
+      name: BROCCOLI_CABBAGE
+      url: https://www.atbmarket.com/product/kapusta-brokkoli-1-gat
+
+    - firm: ATB
+      name: GINGER
+      url: https://www.atbmarket.com/product/korin-imbira-1-gat
+
+    - firm: ATB
+      name: SWEET_PEPPER
+      url: https://www.atbmarket.com/product/perec-solodkij-cervonij-1-gat
+
+    - firm: ATB
+      name: CAULIFLOWER
+      url: https://www.atbmarket.com/product/kapusta-cvitna-1gat
+
+    - firm: ATB
+      name: EARLY_CABBAGE
+      url: https://www.atbmarket.com/product/kapusta-ranna-1-gat
+
+    - firm: ATB
+      name: RADISH
+      url: https://www.atbmarket.com/product/redis-1-gat
+
+    - firm: ATB
+      name: EARLY_GARLIC
+      url: https://www.atbmarket.com/product/casnik-rannij-1-gat
+
+    - firm: ATB
+      name: DILL
+      url: https://www.atbmarket.com/product/krip-70g-st-1-gat
+
+    - firm: ATB
+      name: PARSLEY
+      url: https://www.atbmarket.com/product/petruska-30-g-st-1-gat
+
+    - firm: ATB
+      name: SPINACH
+      url: https://www.atbmarket.com/product/spinat-100g-st-1-gat
+
+    - firm: ATB
+      name: ONION
+      url: https://www.atbmarket.com/product/cibula-zelena-100g-st-1-gat
+
+    - firm: ATB
+      name: MUSHROOMS_OF_PECHERYTSІ
+      url: https://www.atbmarket.com/product/gribi-pecerici-1gat
+>>>>>>> 429ac13 (defragmentation)

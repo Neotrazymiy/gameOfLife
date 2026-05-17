@@ -17,7 +17,9 @@ public enum ProductsName {
 	BROCCOLI_CABBAGE("/img/products/broccoli_cabbage.webp"), GINGER("/img/products/ginger.webp"),
 	SWEET_PEPPER("/img/products/sweet_pepper.webp"), CAULIFLOWER("/img/products/cauliflower.webp"),
 	EARLY_CABBAGE("/img/products/early_cabbage.webp"), RADISH("/img/products/radish.webp"),
-	EARLY_GARLIC("/img/products/early_garlic.webp");
+	EARLY_GARLIC("/img/products/early_garlic.webp"), DILL("/img/products/dill.webp"),
+	PARSLEY("/img/products/parsley.jpeg"), SPINACH("/img/products/spinach.webp"), ONION("/img/products/onion.webp"),
+	MUSHROOMS_OF_PECHERYTSІ("/img/products/mushrooms_of_pecherytsі.webp");
 
 	private final String path;
 
